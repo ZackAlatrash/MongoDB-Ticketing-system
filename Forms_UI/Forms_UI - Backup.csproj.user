@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="CreateNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IncidentCreatorModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ResetPasswordForm.cs">
+    <Compile Update="TransferingTicketsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Usercontrols\PieChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Usercontrols\TicketControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
