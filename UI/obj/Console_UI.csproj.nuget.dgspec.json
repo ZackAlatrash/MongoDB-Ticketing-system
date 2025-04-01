@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\UI\\Console_UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Gebruikerr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gebruikerr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\Gebruikerr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gebruikerr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Gebruikerr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gebruikerr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\UI\\Console_UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\UI\\Console_UI.csproj",
+        "projectName": "Console_UI",
+        "projectPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\UI\\Console_UI.csproj",
+        "packagesPath": "C:\\Users\\Gebruikerr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gebruikerr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Model\\Model.csproj"
+              },
+              "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Gebruikerr\\Desktop\\Inholland\\Year 2\\Term 1\\NoSQL Project\\CrudProjcetFinal\\Service\\Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
